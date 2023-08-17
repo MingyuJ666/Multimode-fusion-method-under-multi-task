@@ -1,7 +1,9 @@
 # A multimode fusion method under multi-task 
 
 Feature tensor alignment constitutes the primary mechanism for fusing multimodal data. we propose a novel fusion approach termed Attentive Tensor Alignment. This technique iteratively transfers and augments feature representations across modalities to fully integrate the multimodal information, thereby attaining a unified representation in feature space. The Attentive Tensor Alignment approach robustly captures high-level interactions between features from distinct modalities, substantially enhancing multimodal learning performance. Through extensive empirical evaluations on the DPTODataset, a power transformer temperature detection dataset, we demonstrate that our proposed technique achieves state-of-the-art results. Compared to alternative fusion techniques, our approach exhibits remarkable performance gains and excels in its lightweight characteristics. 
-
+<div style="text-align: center;">
+<img src="./image/imageq.PNG" width="960px">
+</div>
 
 We prepared to submit this article to **Expert System With Application**
 
