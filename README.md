@@ -53,21 +53,7 @@ The ARAF Encoder is a unified component for cross-modal feature extraction. This
 **Testing: run Train_Test.py**
 
 
-## 5. Result:
-We selected a highly representative power transformer temperature detection dataset for experimentation to demonstrate the excellent performance of the ATA method in transformer temperature detection techniques. Furthermore, to establish the sufficiency of our experiments on multimodal data, we conducted separate experiments on this dataset using single-modal data. Finally, to validate that our proposed ATA method is a superior cross-modal alignment approach, we performed experiments by replacing the ATA module in our model with two traditional alignment methods.
 
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(31,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./image/result.JPG" width="75%" alt=""/>
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">
-     Comparision with previous state-of-the-art method on DPTODataset
-    </div>
-</center>
 
 
 
