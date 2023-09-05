@@ -1,11 +1,11 @@
-# A multimode fusion method under multi-task 
+# Cross-Modal Attention Representation Alignment and Fusion Mechanism for multitasks 
 
-Feature tensor alignment constitutes the primary mechanism for fusing multimodal data. we propose a novel fusion approach termed Attentive Tensor Alignment. This technique iteratively transfers and augments feature representations across modalities to fully integrate the multimodal information, thereby attaining a unified representation in feature space. The Attentive Tensor Alignment approach robustly captures high-level interactions between features from distinct modalities, substantially enhancing multimodal learning performance. Through extensive empirical evaluations on the DPTODataset, a power transformer temperature detection dataset, we demonstrate that our proposed technique achieves state-of-the-art results. Compared to alternative fusion techniques, our approach exhibits remarkable performance gains and excels in its lightweight characteristics. 
+Cross-modal representation alignment is a critical mechanism for integrating multi-modal data. This technique involves the iterative transmission and enhancement of feature representations between different modalities to effectively integrate multi-modal information and generate a unified representation in the feature space. However, existing methods often struggle with feature dimension mismatches, representation space inconsistencies, and lack of adaptability to diverse downstream tasks. To address these challenges, we propose Attention-based Representation Alignment Fusion (RAF), a promising approach that is highly compatible and robust in capturing cross-modal representation information. It enhances model performance by implementing a consistent alignment fusion mechanism. The proposed method outperforms other popular multi-modal fusion approaches in various tasks, including regression, classification, and image generation. This superiority is consistently demonstrated through extensive empirical evaluations on multiple datasets. The results consistently indicate that the Attention Representation Alignment Fusion method achieves state-of-the-art performance in these tasks. 
 <div style="text-align: center;">
 <img src="./image/imageq.PNG" width="960px">
 </div>
 
-We prepared to submit this article to **Expert System With Application**
+We prepared to submit this article to **ICASSP2024**
 
 ## 1. Requirements
 - PyTorch >= 1.10.1
@@ -17,30 +17,34 @@ We prepared to submit this article to **Expert System With Application**
 - CUDA >= 11.3
 
 ## 2. Data preparation
-We use the [VQA](https://visualqa.org/vqa_v1_download.html) as training dataset.
+We use the [VQA](https://visualqa.org/vqa_v1_download.html) as classification dataset.
 
-We use the [ETDdataset](https://github.com/zhouhaoyi/ETDataset) and [CUB](https://paperswithcode.com/dataset/cub-200-2011) as testset to test the multimodal fusion performance.
+We use the [ETDdataset](https://github.com/zhouhaoyi/ETDataset) as regression dataset.
+
+We use the [CUB](https://paperswithcode.com/dataset/cub-200-2011) as image generation dataset.
+
+We use these three datasets to test the multimodal fusion performance.
 
 ## 3. Method
-The model in this study consists of two main components: the ATA_Encoder module and the Alignment module. A unified cross-modal feature extraction module is employed as a shared component between the two encoder sections. In Figure 1, the overall framework structure is illustrated, accompanied by a comprehensive explanation and elaboration.
+We will provide a detailed architecture of the  Attention Representation Alignment Fusion network framework we propose for cross-modal information, which comprises three main modules: ARAF encoder module, Representation Alignment module, and Representation Enhancement module. Note that the model uses three different types of cross-modal information including image, text, and time series information in diverse downstream tasks.
+
+
 
 <div style="text-align: center;">
-<img src="./image/image1.png" width="730px">
+<img src="./image/image1.jpg" width="730px">
 </div>
 
 
-The ATA-Encoder assumes a central role as a core component, specifically crafted to facilitate cross-modal feature extraction between image and time series data. It features a multi-level stacked architecture, incorporating multiple ATA-attention encoder sub-modules. Each ATA-attention encoder is further augmented with a Multimodal Feature Extraction (MFE) block, tasked with conducting additional nonlinear transformations and sequence modelling tailored to the unique characteristics of each modality. Within this multi-level configuration, the original image and time series inputs undergo progressive abstraction via the ATA-Encoder, resulting in the extraction of increasingly high-level features.
-The MFE block, nested within each ATA-attention encoder level, plays a pivotal role in augmenting the representational capacity of each modality. This enhancement is achieved through the application of tailored nonlinear operations and sequence modelling techniques. The ATA-Encoder operates on these principles to effectively extract salient features from the cross-modal data. The specific working principle is as follows:
+The ARAF Encoder is a unified component for cross-modal feature extraction. This encoder leverages attention mechanisms and the Modality Fusion Enhancement (MFE) module to better focus on relevant portions of cross-modal representation information. This structure effectively transforms information from different modalities into a common sequence data format, unifying the representation of diverse modal data, and thereby reducing heterogeneity and representation differences among different modalities.
+
+
 
 <div style="text-align: center;">
-<img src="./image/image2.png" width="550px">
+<img src="./image/image2.jpg" width="450px">
 </div>
 
-We first use the previously described ATA-encoder architecture for initial feature extraction. While this process derives informative representations for each modality, inherent structural and geometric differences exist due to their heterogeneous nature. To effectively integrate these diverse features, we design the Alternating Tensor Alignment (ATA) module to synergistically merge visual and temporal streams into a unified representation. The core technological innovation of the ATA module involves selective and alternating transformations of feature matrices for both image and time series data. Specifically, this alternating transformation scheme projects the modalities into a shared, coordinated embedding subspace. In this joint space, the representations are geometrically and statistically aligned, capturing the complementary properties of both data sources. The integrated feature matrix possesses cross-modal compatibility and interoperability. Below is the working principle of ATA:
 
-<div style="text-align: center;">
-<img src="./image/image3.png" width="440px">
-</div>
+
 
 
 ## 4. Training and evaluation
