@@ -74,7 +74,7 @@ The first scatter plot illustrates the relationship between predicted values and
 <img src="./image/xiaoguo-1.png" width="730px">
 </div>
 
-The CUB dataset can be employed to generate an image illustrating the experimental outcomes, showcasing the effectiveness of the ARAF framework in image generation tasks. This image showcases numerous bird images generated using the ARAF framework, which combines visual attributes and semantic information as inputs. These images serve as evidence that the ARAF framework proficiently produces high-quality, vivid, and semantically coherent bird images.
+In image generation tasks, it is evident that bird images generated using the ARAF framework exhibit higher quality and stronger textual coherence. This advantage stems from the ARAF framework's adaptive ability to capture crucial feature information from both images and text, and its utilization of a powerful fusion alignment module for image-text matching. Additionally, the ARAF framework enhances the semantic information through its representation enrichment module, further improving the quality of the generated images.
 
 ## Alignment and Fusion Mechanism Visualization
 <p align="center">
