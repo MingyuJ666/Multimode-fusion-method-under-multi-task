@@ -56,14 +56,14 @@ In this section, we evaluate and visualize classification, regression, and gener
 <p align="center">
   <img src="./image/vqa.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
-In this Experiment, our primary focus is on the five-class prediction task for Visual Question Answering (VQA). We conducted a comparative experiment to illustrate the disparities in prediction results when employing the ARAF Framework versus not utilizing it. The experimental results are presented through ROC (Receiver Operating Characteristic) curve plots, where the network utilizing the ARAF Framework exhibits superior performance, as indicated by a larger area under the ROC curve. This indicates that the ARAF Framework plays a positive role in enhancing the performance of VQA tasks.
+In this experiment, our primary focus lies in the five-class prediction task for Visual Question Answering (VQA). We are conducting a comparative experiment to illustrate the disparities in prediction results when the ARAF Framework is employed as opposed to when it is not utilized. The experimental results are presented through ROC (Receiver Operating Characteristic) curve plots, with the network utilizing the ARAF Framework showcasing superior performance, as evidenced by a larger area under the ROC curve. This suggests that the ARAF Framework has a positive impact on enhancing the performance of VQA tasks.
 
 ### Regression
 
 <div style="text-align: center;">
 <img src="./image/huigui-1.png" width="730px">
 </div>
-To visualize the effectiveness of the Electricity Transformer Dataset (ETD) predictive regression task, especially the efficacy of the Adaptive Fusion Framework (ARAF) fusion modality, we can create an image containing two scatterplots. The first scatterplot will illustrate the relationship between predicted results and actual labels when using the ARAF framework, with points distributed along the diagonal to show the proximity of predictions to actual values. The second scatterplot will be a residual scatterplot when using the ARAF framework, displaying the differences between predicted values and true values. Such a visual presentation can aid in understanding and assessing the performance of the ARAF framework in handling the ETD prediction task.
+To visualize the effectiveness of the Electricity Transformer Dataset (ETD) predictive regression task, especially the efficacy of the Adaptive Fusion Framework (ARAF) fusion modality, an image can be created containing two scatterplots. The first scatterplot illustrates the relationship between predicted results and actual labels when the ARAF framework is used, with points distributed along the diagonal to demonstrate the proximity of predictions to actual values. The second scatterplot is a residual scatterplot when employing the ARAF framework, which displays the differences between predicted values and true values. Such a visual presentation can assist in comprehending and evaluating the performance of the ARAF framework in handling the ETD prediction task.
 
 ### Generation
 <div style="text-align: center;">
@@ -74,7 +74,7 @@ To visualize the effectiveness of the Electricity Transformer Dataset (ETD) pred
 <img src="./image/xiaoguo-1.png" width="730px">
 </div>
 
-We may use the CUB dataset to generate a picture that shows the experimental outcomes, demonstrating the efficacy of the ARAF framework in image-generating tasks. This picture will display many bird images created with the ARAF framework, which combines visual characteristics and semantic information received as input. These images demonstrate that the ARAF framework effectively generates high-quality, clear, and semantically aligned bird images.
+The CUB dataset can be employed to generate an image illustrating the experimental outcomes, showcasing the effectiveness of the ARAF framework in image generation tasks. This image showcases numerous bird images generated using the ARAF framework, which combines visual attributes and semantic information as inputs. These images serve as evidence that the ARAF framework proficiently produces high-quality, vivid, and semantically coherent bird images.
 
 ## Alignment and Fusion Mechanism Visualization
 <p align="center">
