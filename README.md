@@ -56,7 +56,7 @@ In this section, we evaluate and visualize classification, regression, and gener
 <p align="center">
   <img src="./image/vqa.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
-In this laboratory, our primary focus is on the five-class prediction task for Visual Question Answering (VQA). We conducted a comparative experiment to illustrate the disparities in prediction results when employing the ARAF Framework versus not utilizing it. The experimental results are presented through ROC (Receiver Operating Characteristic) curve plots, where the network utilizing the ARAF Framework exhibits superior performance, as indicated by a larger area under the ROC curve. This indicates that the ARAF Framework plays a positive role in enhancing the performance of VQA tasks.
+In this Experiment, our primary focus is on the five-class prediction task for Visual Question Answering (VQA). We conducted a comparative experiment to illustrate the disparities in prediction results when employing the ARAF Framework versus not utilizing it. The experimental results are presented through ROC (Receiver Operating Characteristic) curve plots, where the network utilizing the ARAF Framework exhibits superior performance, as indicated by a larger area under the ROC curve. This indicates that the ARAF Framework plays a positive role in enhancing the performance of VQA tasks.
 
 ### Regression
 
@@ -85,17 +85,17 @@ We may use the CUB dataset to generate a picture that shows the experimental out
   <img src="./image/test1.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
 
-To visualize the distribution of data in 3D space and compare the changes before and after using the ARAF framework, we can design an image. This image will include four 3D scatterplots, each showing the data distribution at different stages:
+To visualize the distribution of data in 3D space and compare the changes before and after using the ARAF framework, we can design an image. This image include four 3D scatterplots, each showing the data distribution at different stages:
 
 1. The top-left plot displays the data distribution without using the ARAF framework.
 2. The top-right plot shows the data space distribution after both modalities have been processed through our unified attention encoder.
 3. The bottom-left plot illustrates the data distribution after using the feature alignment fusion module.
 4. The bottom-right plot showcases the data space distribution after the data has gone through the representation enhancement module.
 
-These 3D scatterplots will clearly demonstrate the positions of data points in space and emphasize how the ARAF framework effectively reduces the common semantic space of the data after its use. This visualization will help illustrate how the ARAF framework, by optimizing the spatial distribution of data, improves the network's predictive performance in downstream tasks. Through a direct comparison of these four plots, the optimization effect of the ARAF framework can be observed clearly.
+The 3D scatterplots clearly demonstrated the positions of data points in space and emphasized how the ARAF framework effectively reduced the common semantic space of the data after its use. This visualization helped illustrate how the ARAF framework, by optimizing the spatial distribution of data, improved the network's predictive performance in downstream tasks. Through a direct comparison of these four plots, the optimization effect of the ARAF framework could be observed clearly.
  
 
-##  Comparison of ARAF with other Fusion Method
+##  Comparison of ARAF with other Fusion Methods
 
 <p align="center">
   <img src="./image/com.png" style="transform: scale(0.5);" alt="猫图片">
