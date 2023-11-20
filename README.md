@@ -78,6 +78,9 @@ In this section, we evaluate and visualize classification, regression, and gener
   <img src="./image/test1.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
 
+ 
+##   Comparison of ARAF with other  Method  in different Task
+
 ##  Comparison of ARAF with other Fusion Method
 
 <p align="center">
