@@ -49,7 +49,7 @@ The ARAF Encoder is a unified component for cross-modal feature extraction. This
 </div>
 
 
-## 4.  Expeiment
+## 4.  Experiment
 In this section, we evaluate and visualize classification, regression, and generation tasks separately.
 ### Classification
 
@@ -63,7 +63,7 @@ In this laboratory, our primary focus is on the five-class prediction task for V
 <div style="text-align: center;">
 <img src="./image/huigui-1.png" width="730px">
 </div>
-To visualize the effectiveness of ECG prediction regression tasks, especially the difference between using and not using the ARAF framework, we can create an image. This image will display two scatterplots: one to illustrate the relationship between predicted results and true labels when using the ARAF framework, and the other to show the relationship without using the ARAF framework. In each scatterplot, the points will be distributed along the diagonal line, indicating the closeness between predicted values and actual values. Through this comparison, the utility of the ARAF framework in ECG prediction can be clearly observed.
+To visualize the effectiveness of ETT prediction regression tasks, especially the difference between using and not using the ARAF framework, we can create an image. This image will display two scatterplots: one to illustrate the relationship between predicted results and true labels when using the ARAF framework, and the other to show the relationship without using the ARAF framework. In each scatterplot, the points will be distributed along the diagonal line, indicating the closeness between predicted values and actual values. Through this comparison, the utility of the ARAF framework in ETT prediction can be clearly observed.
 
 ### Generation
 <div style="text-align: center;">
