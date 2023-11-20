@@ -61,8 +61,13 @@ In this section, we evaluate and visualize classification, regression, and gener
 </div>
 
 ### Generation
+<div style="text-align: center;">
+<img src="./image/bb-1.png" width="730px">
+</div>
 
-
+<div style="text-align: center;">
+<img src="./image/xiaoguo-1.png" width="730px">
+</div>
 
 ## 4. Training and evaluation
 **Train &  Test: run Train_Test.py**
