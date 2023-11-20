@@ -51,7 +51,7 @@ In this section, we evaluate and visualize classification, regression, and gener
 <p align="center">
   <img src="./image/vqa.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
-
+In this laboratory, we focus on the five-class prediction task of electrocardiogram (ECG) signals. We conducted a comparative experiment to demonstrate the difference in prediction results when using the ARIF Framework compared to not using it. The experimental results are presented through ROC (Receiver Operating Characteristic) curves, where the network using the ARIF Framework shows superior performance, as evidenced by a larger area under the ROC curve. This indicates that the ARIF Framework plays a positive role in improving the performance of ECG signal classification.
 
 ### Regression
 
