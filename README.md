@@ -87,10 +87,14 @@ In image generation tasks, it is evident that bird images generated using the AR
 
 To effectively evaluate the role of core modules in the ARAF framework, we visualized the states of various modal data.
 
-1.The top-left figure displays the distribution of the original cross-modal data. This figure illustrates the initial distribution of different modalities.
-2.The top-right figure depicts the data space distribution after the modules process the two modalities through our unified attention encoder. It is evident that the unified attention encoder effectively brings cross-modal information closer together and performs unified encoding operations.
+1. The top-left figure displays the distribution of the original cross-modal data. This figure illustrates the initial distribution of different modalities.
+
+2. The top-right figure depicts the data space distribution after the modules process the two modalities through our unified attention encoder. It is evident that the unified attention encoder effectively brings cross-modal information closer together and performs unified encoding operations.
+
 3. The bottom-left figure showcases the visible and distinctive cross-modal information that is fully aligned and fused in a shared representation space using the aggregation fusion display module. This figure demonstrates the module's effective utilization of cross-modal information.
+
 4. The bottom-right figure shows the data space distribution after undergoing the representation enhancement module. It can be observed that the cross-modal information is further sparsely fused, enhancing the expression of fusion features.
+
 
 ##  Comparison of ARAF with other Fusion Methods
 
