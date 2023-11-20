@@ -81,9 +81,8 @@ In this section, we evaluate and visualize classification, regression, and gener
 ##  Comparison of ARAF with other Fusion Method
 
 <p align="center">
-  <img src="./image/com.png" width="1000" height="420", scale= 0.5, alt="猫图片">
+  <img src="./image/com.png" style="transform: scale(0.5);" alt="猫图片">
 </p>
-
 
 ## 4. Training and evaluation
 Train &  Test: run Train_Test.py
