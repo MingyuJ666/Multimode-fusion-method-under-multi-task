@@ -1,4 +1,4 @@
-# Attention-based cross-modal representation alignment and fusion mechanism for multitasks
+![0be3297723bfa58ac4b7de8af334862](https://github.com/jmyissb/Multimode-fusion-method-under-multi-task/assets/115693550/7b3b84cc-6e0a-4943-b9f0-be0454b314b2)![0be3297723bfa58ac4b7de8af334862](https://github.com/jmyissb/Multimode-fusion-method-under-multi-task/assets/115693550/8060024a-ee32-4031-a7c6-9b97fbf3b813)# Attention-based cross-modal representation alignment and fusion mechanism for multitasks
 
 Cross-modal representation alignment is a critical mechanism for integrating multi-modal data. This technique involves the iterative transmission and enhancement of feature representations between different modalities to effectively integrate multi-modal information and generate a unified representation in the feature space. However, existing methods often struggle with feature dimension mismatches, representation space inconsistencies, and lack of adaptability to diverse downstream tasks. To address these challenges, we propose Attention-based Representation Alignment Fusion (ARAF), a promising approach that is highly compatible and robust in capturing cross-modal representation information. It enhances model performance by implementing a consistent alignment fusion mechanism. The proposed method outperforms other popular multi-modal fusion approaches in various tasks, including regression, classification, and image generation. This superiority is consistently demonstrated through extensive empirical evaluations on multiple datasets. The results consistently indicate that the Attention Representation Alignment Fusion method achieves state-of-the-art performance in these tasks. 
 
@@ -68,6 +68,11 @@ In this section, we evaluate and visualize classification, regression, and gener
 <img src="./image/xiaoguo-1.png" width="730px">
 </div>
 
+
+## Alignment and Fusion Mechanism Visualization
+<p align="center">
+  <img src="./image/test.png" width="900" height="420", scale= 0.5, alt="猫图片">
+</p>
 ## 4. Training and evaluation
 **Train &  Test: run Train_Test.py**
 
