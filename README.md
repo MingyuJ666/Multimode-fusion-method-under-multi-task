@@ -58,6 +58,7 @@ In this laboratory, our primary focus is on the five-class prediction task for V
 <div style="text-align: center;">
 <img src="./image/huigui-1.png" width="730px">
 </div>
+To visualize the effectiveness of ECG prediction regression tasks, especially the difference between using and not using the ARIF framework, we can create an image. This image will display two scatterplots: one to illustrate the relationship between predicted results and true labels when using the ARIF framework, and the other to show the relationship without using the ARIF framework. In each scatterplot, the points will be distributed along the diagonal line, indicating the closeness between predicted values and actual values. Through this comparison, the utility of the ARIF framework in ECG prediction can be clearly observed.
 
 ### Generation
 <div style="text-align: center;">
