@@ -49,7 +49,7 @@ In this section, we evaluate and visualize classification, regression, and gener
 ### Classification
 
 <p align="center">
-  <img src="./image/vqa.png" width="900" height="500", scale= 0.5, alt="猫图片">
+  <img src="./image/vqa.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
 
 
