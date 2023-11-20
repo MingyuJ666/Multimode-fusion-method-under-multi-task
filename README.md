@@ -55,6 +55,11 @@ In this section, we evaluate and visualize classification, regression, and gener
 
 
 ### Regression
+
+<div style="text-align: center;">
+<img src="./image/huigui-1.png" width="730px">
+</div>
+
 ### Generation
 
 
