@@ -23,6 +23,11 @@ We use the [CUB](https://paperswithcode.com/dataset/cub-200-2011) as image gener
 
 We use these three datasets to test the multimodal fusion performance.
 
+## Process and dimension
+<p align="center">
+  <img src="./image/weidu.png" style="transform: scale(0.5);" alt="猫图片">
+</p>
+
 ## 3. Method
 ### Overall Structure
 We provide a detailed architecture of the  Attention Representation Alignment Fusion network framework we propose for cross-modal information, which comprises three main modules: ARAF encoder module, Representation Alignment module, and Representation Enhancement module. Note that the model uses three different types of cross-modal information including image, text, and time series information in diverse downstream tasks.
