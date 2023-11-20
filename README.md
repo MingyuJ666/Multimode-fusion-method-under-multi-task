@@ -85,15 +85,15 @@ In image generation tasks, it is evident that bird images generated using the AR
   <img src="./image/test1.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
 
-To visualize the distribution of data in 3D space and compare the changes before and after using the ARAF framework, we can design an image. This image include four 3D scatterplots, each showing the data distribution at different stages:
+To effectively evaluate the role of core modules in the ARAF framework, we visualized the states of various modal data.
 
-1. The top-left plot displays the data distribution without using the ARAF framework.
-2. The top-right plot shows the data space distribution after both modalities have been processed through our unified attention encoder.
-3. The bottom-left plot illustrates the data distribution after using the feature alignment fusion module.
-4. The bottom-right plot showcases the data space distribution after the data has gone through the representation enhancement module.
+1.The top-left figure displays the distribution of the original cross-modal data. This figure illustrates the initial distribution of different modalities.
 
-The 3D scatterplots clearly demonstrated the positions of data points in space and emphasized how the ARAF framework effectively reduced the common semantic space of the data after its use. This visualization helped illustrate how the ARAF framework, by optimizing the spatial distribution of data, improved the network's predictive performance in downstream tasks. Through a direct comparison of these four plots, the optimization effect of the ARAF framework could be observed clearly.
- 
+2.The top-right figure depicts the data space distribution after the modules process the two modalities through our unified attention encoder. It is evident that the unified attention encoder effectively brings cross-modal information closer together and performs unified encoding operations.
+
+3. The bottom-left figure showcases the visible and distinctive cross-modal information that is fully aligned and fused in a shared representation space using the aggregation fusion display module. This figure demonstrates the module's effective utilization of cross-modal information.
+
+4. The bottom-right figure shows the data space distribution after undergoing the representation enhancement module. It can be observed that the cross-modal information is further sparsely fused, enhancing the expression of fusion features.
 
 ##  Comparison of ARAF with other Fusion Methods
 
