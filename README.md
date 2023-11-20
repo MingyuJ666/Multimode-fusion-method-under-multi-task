@@ -48,7 +48,7 @@ The ARAF Encoder is a unified component for cross-modal feature extraction. This
 
 
 ## 4. Training and evaluation
-**Train &  Test: run Train_Test.py***
+**Train &  Test: run Train_Test.py**
 
 
 
