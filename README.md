@@ -79,7 +79,7 @@ We may use the CUB dataset to generate a picture that shows the experimental out
 <p align="center">
   <img src="./image/test1.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
-
+To visualize the distribution of data in 3D space and compare the changes before and after using the ARIF framework, we can design an image. This image will include two 3D scatterplots: one displaying the data distribution without using the ARIF framework and the other showing the data distribution after using the ARIF framework. These 3D scatterplots will illustrate the positions of data points in space, highlighting how the common semantic space of data is effectively reduced after using the ARIF framework. This visualization demonstrates that the ARIF framework, by optimizing the spatial distribution of data, helps improve the predictive performance of the network in downstream tasks. Through direct comparison, the optimization effect of the ARIF framework can be clearly observed.
  
 ##   Comparison of ARAF with other  Method  in different Task
 
