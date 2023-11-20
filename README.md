@@ -56,7 +56,7 @@ In this section, we evaluate and visualize classification, regression, and gener
 <p align="center">
   <img src="./image/vqa.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
-In this experiment, our primary focus lies in the five-class prediction task for Visual Question Answering (VQA). We are conducting a comparative experiment to illustrate the disparities in prediction results when the ARAF Framework is employed as opposed to when it is not utilized. The experimental results are presented through ROC (Receiver Operating Characteristic) curve plots, with the network utilizing the ARAF Framework showcasing superior performance, as evidenced by a larger area under the ROC curve. This suggests that the ARAF Framework has a positive impact on enhancing the performance of VQA tasks.
+This experiment focuses on five categories of prediction tasks related to Visual Question Answering (VQA). It is a comparative study aimed at illustrating the differences in prediction results when using the ARAF framework compared to not using it. The experimental results are presented through ROC (Receiver Operating Characteristic) curve graphs. From the experimental results, we observed that networks utilizing the ARAF framework exhibit superior performance as indicated by their larger ROC curve areas. This suggests that the ARAF framework has a positive impact on enhancing the performance of VQA tasks.
 
 ### Regression
 
