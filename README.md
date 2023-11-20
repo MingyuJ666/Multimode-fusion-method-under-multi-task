@@ -34,7 +34,7 @@ We will provide a detailed architecture of the  Attention Representation Alignme
 </div>
 
 
-
+###  Compatible Attention Encoder
 The ARAF Encoder is a unified component for cross-modal feature extraction. This encoder leverages attention mechanisms and the Modality Fusion Enhancement (MFE) module to better focus on relevant portions of cross-modal representation information. This structure effectively transforms information from different modalities into a common sequence data format, unifying the representation of diverse modal data, and thereby reducing heterogeneity and representation differences among different modalities.
 
 
@@ -48,9 +48,8 @@ The ARAF Encoder is a unified component for cross-modal feature extraction. This
 
 
 ## 4. Training and evaluation
-**Training: run MultiModalEnhancer.py**
+**Train &  Test: run Train_Test.py***
 
-**Testing: run Train_Test.py**
 
 
 
