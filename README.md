@@ -63,6 +63,7 @@ In this Experiment, our primary focus is on the five-class prediction task for V
 <div style="text-align: center;">
 <img src="./image/huigui-1.png" width="730px">
 </div>
+To visualize the effectiveness of the Electricity Transformer Dataset (ETD) predictive regression task, especially the efficacy of the Adaptive Fusion Framework (ARAF) fusion modality, we can create an image containing two scatterplots. The first scatterplot will illustrate the relationship between predicted results and actual labels when using the ARAF framework, with points distributed along the diagonal to show the proximity of predictions to actual values. The second scatterplot will be a residual scatterplot when using the ARAF framework, displaying the differences between predicted values and true values. Such a visual presentation can aid in understanding and assessing the performance of the ARAF framework in handling the ETD prediction task.
 
 ### Generation
 <div style="text-align: center;">
