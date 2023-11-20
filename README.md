@@ -49,8 +49,8 @@ In this section, we evaluate and visualize classification, regression, and gener
 ### Classification
 
 <p align="center">
-  <img src="./image/final2-1.png" width="550" height="480" alt="猫图片">
-  <img src="./image/cao-1.png" width="550" height="480" alt="狗图片">
+  <img src="./image/final2-1.png" width="500" height="480" alt="猫图片">
+  <img src="./image/cao-1.png" width="500" height="480" alt="狗图片">
 </p>
 
 
