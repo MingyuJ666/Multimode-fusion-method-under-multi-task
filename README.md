@@ -86,7 +86,6 @@ We may use the CUB dataset to generate a picture that shows the experimental out
 </p>
 To visualize the distribution of data in 3D space and compare the changes before and after using the ARAF framework, we can design an image. This image will include two 3D scatterplots: one displaying the data distribution without using the ARAF framework and the other showing the data distribution after using the ARAF framework. These 3D scatterplots will illustrate the positions of data points in space, highlighting how the common semantic space of data is effectively reduced after using the ARAF framework. This visualization demonstrates that the ARAF framework, by optimizing the spatial distribution of data, helps improve the predictive performance of the network in downstream tasks. Through direct comparison, the optimization effect of the ARAF framework can be clearly observed.
  
-##   Comparison of ARAF with other  Method  in different Task
 
 ##  Comparison of ARAF with other Fusion Method
 
