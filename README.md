@@ -40,7 +40,7 @@ The ARAF Encoder is a unified component for cross-modal feature extraction. This
 
 
 <div style="text-align: center;">
-<img src="./image/encoder.jpg" width="650px">
+<img src="./image/encoder.png" width="650px">
 </div>
 
 
