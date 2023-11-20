@@ -47,6 +47,13 @@ The ARAF Encoder is a unified component for cross-modal feature extraction. This
 ## 4.  Expeiment
 In this section, we evaluate and visualize classification, regression, and generation tasks separately.
 ### Classification
+
+<div style="text-align: center;">
+<img src="./image/cao-1.png" width="450px">
+</div>
+
+
+
 ### Regression
 ### Generation
 
