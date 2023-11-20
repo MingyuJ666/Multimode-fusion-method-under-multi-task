@@ -77,8 +77,10 @@ In this section, we evaluate and visualize classification, regression, and gener
 <p align="center">
   <img src="./image/test1.png" width="900" height="420", scale= 0.5, alt="猫图片">
 </p>
+
 ## 4. Training and evaluation
-**Train &  Test: run Train_Test.py**
+Train &  Test: run Train_Test.py
+
 
 
 
