@@ -69,6 +69,7 @@ To visualize the effectiveness of ECG prediction regression tasks, especially th
 <img src="./image/xiaoguo-1.png" width="730px">
 </div>
 
+We may use the CUB dataset to generate a picture that shows the experimental outcomes, demonstrating the efficacy of the ARIF framework in image-generating tasks. This picture will display many bird images created with the ARIF framework, which combines visual characteristics and semantic information received as input. These images demonstrate that the ARIF framework effectively generates high-quality, clear, and semantically aligned bird images.
 
 ## Alignment and Fusion Mechanism Visualization
 <p align="center">
