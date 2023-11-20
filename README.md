@@ -24,6 +24,7 @@ We use the [CUB](https://paperswithcode.com/dataset/cub-200-2011) as image gener
 We use these three datasets to test the multimodal fusion performance.
 
 ## 3. Method
+### Overall Structure
 We will provide a detailed architecture of the  Attention Representation Alignment Fusion network framework we propose for cross-modal information, which comprises three main modules: ARAF encoder module, Representation Alignment module, and Representation Enhancement module. Note that the model uses three different types of cross-modal information including image, text, and time series information in diverse downstream tasks.
 
 
@@ -31,6 +32,7 @@ We will provide a detailed architecture of the  Attention Representation Alignme
 <div style="text-align: center;">
 <img src="./image/image1.jpg" width="730px">
 </div>
+
 
 
 The ARAF Encoder is a unified component for cross-modal feature extraction. This encoder leverages attention mechanisms and the Modality Fusion Enhancement (MFE) module to better focus on relevant portions of cross-modal representation information. This structure effectively transforms information from different modalities into a common sequence data format, unifying the representation of diverse modal data, and thereby reducing heterogeneity and representation differences among different modalities.
