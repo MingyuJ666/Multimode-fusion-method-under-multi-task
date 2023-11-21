@@ -60,10 +60,11 @@ In this section, we evaluate and visualize classification, regression, and gener
 
 This experiment focuses on the classification task related to Visual Question Answering (VQA). The experiment clearly demonstrates the difference in model performance when using the ARAF (Alignment-based Adaptive Fusion) framework compared to not using the ARAF framework. The experimental results are presented through ROC curve graphs. The shape and position of the ROC curve can effectively reflect the model's performance and robustness. From the experimental results, the network utilizing the ARAF framework exhibits superior performance, as evidenced by a larger area under the ROC curve. The alignment fusion module of ARAF can effectively capture complex feature information from different modalities and integrate them, achieving superior performance in the classification task.
 
+
 <p align="center">
   <img src="./image/vqadata.png">
 </p>
-
+The VQA dataset includes two subgroups: Test-dev and Test-std.  It encompasses three distinct question types: Yes/No questions, questions related to object counting (Num), and other miscellaneous questions(other). We conduct separate evaluations for these three types of issues.
 ### Regression
 
 <div style="text-align: center;">
